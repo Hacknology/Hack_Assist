@@ -34,4 +34,8 @@ if setup == "open valhalla's door":
         print "ragent imported!"
     except ImportError:
         yukle("ragent")
+    try:
+        import imports
+    except ImportError:
+        yukle("imports")
     print "[+] READY TO USE VALHALLA!"
